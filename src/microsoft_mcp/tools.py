@@ -30,7 +30,7 @@ def list_accounts() -> list[dict[str, str]]:
 
 
 @mcp.tool
-def authenticate_account() -> dict[str, str]:
+def authenticate_account() -> dict[str, Any]:
     """Authenticate a new Microsoft account using device flow authentication
 
     Returns authentication instructions and device code for the user to complete authentication.
